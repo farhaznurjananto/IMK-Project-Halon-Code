@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halon Code</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="index.html" id="navbar_logo">Halon Code</a>
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <img src="image/sun.png" alt="pic" id="darkBtn" onclick="setDarkMode()" />
+          </li>
+          <li class="navbar_item">
+            <a href="index.html" class="navbar_links">Home</a>
+          </li>
+          <li class="navbar_item">
+            <a href="courses.html" class="navbar_links">Courses</a>
+          </li>
+          <li class="navbar_item">
+            <a href="https://github.com/farhaznurjananto" class="navbar_links">Discuss</a>
+          </li>
+          <li class="navbar_item">
+            <a href="blog.html" class="navbar_links">Blog</a>
+          </li>
+          <li class="navbar_btn">
+            <a href="login.html" class="button">Log in</a>
+          </li>
+          <li class="navbar_btn">
+            <a href="register.html" class="button">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="main" id="home">
+      <div class="main_container">
+        <div class="main_content">
+          <h1>Mau Belajar Apa Nih?</h1>
+          <p>Pilih kursus yang ingin kamu pelajari, semua ini gratis!</p>
+        </div>
+        <div class="main_img_container">
+          <img src="image/courses_index.svg" alt="main_image" class="main_img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- courses section -->
+    <div class="courses_index">
+      <div class="courses_index_container">
+        <a href="#">
+          <div class="courses_card_index">
+            <img src="image/python-logo.png" alt="pic" />
+            <div class="courses_description">
+              <h2>PYTHON</h2>
+              <p id="description">By Halon</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, a!</p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="courses_card_index">
+            <img src="image/html-logo.png" alt="pic" />
+            <div class="courses_description">
+              <h2>HTML 5</h2>
+              <p id="description">By Halon</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, a!</p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="courses_card_index">
+            <img src="image/c++-logo.png" alt="pic" />
+            <div class="courses_description">
+              <h2>C ++</h2>
+              <p id="description">By Halon</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, a!</p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="courses_card_index">
+            <img src="image/csharp-logo.png" alt="pic" />
+            <div class="courses_description">
+              <h2>C #</h2>
+              <p id="description">By Halon</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, a!</p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="courses_card_index">
+            <img src="image/js-logo.png" alt="pic" />
+            <div class="courses_description">
+              <h2>JAVASCRIPT</h2>
+              <p id="description">By Halon</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, a!</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="contact">
+      <div class="contact_container">
+        <h1>Kontak Kami</h1>
+        <p>Kamu dapat menghubungi sosial media kami untuk info lebih lanjut. Don't forget to follow our social media!!</p>
+        <hr />
+        <div class="contact_card">
+          <a class="social-links" href="https://www.linkedin.com/in/farhaz-n-a5b964212/" target="blank">
+            <div class="social-links-icon">
+              <img src="image/linkedin.png" alt="Logo LinkedIn" />
+            </div>
+            <h6 class="social-links-text">Follow us on Linkedin</h6>
+          </a>
+          <a class="social-links" href="https://www.facebook.com/farhaz.nurjananto/" target="blank">
+            <div class="social-links-icon">
+              <img src="image/facebook-logo.png" alt="Logo Facebook" />
+            </div>
+            <h6 class="social-links-text">Check out our Facebook</h6>
+          </a>
+          <a class="social-links" href="https://www.instagram.com/farhaznurjananto/" target="blank">
+            <div class="social-links-icon">
+              <img src="image/instagram-logo.png" alt="Logo Instagram" />
+            </div>
+            <h6 class="social-links-text">Join our Instagram</h6>
+          </a>
+          <a class="social-links" href="https://www.youtube.com/channel/UCOMdKkcb6ysfbX0m6X1ix3Q" target="blank">
+            <div class="social-links-icon">
+              <img src="image/youtube-logo.png" alt="Logo Youtube" />
+            </div>
+            <h6 class="social-links-text">Watch our Youtube</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>&copy; 2021. <b>Halon Code</b> All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

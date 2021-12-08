@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halon Code</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="index.html" id="navbar_logo">Halon Code</a>
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <img src="image/sun.png" alt="pic" id="darkBtn" onclick="setDarkMode()" />
+          </li>
+          <li class="navbar_item">
+            <a href="#home" class="navbar_links">Home</a>
+          </li>
+          <li class="navbar_item">
+            <a href="courses.html" class="navbar_links">Courses</a>
+          </li>
+          <li class="navbar_item">
+            <a href="https://github.com/farhaznurjananto" class="navbar_links">Discuss</a>
+          </li>
+          <li class="navbar_item">
+            <a href="blog.html" class="navbar_links">Blog</a>
+          </li>
+          <li class="navbar_btn">
+            <a href="login.html" class="button">Log in</a>
+          </li>
+          <li class="navbar_btn">
+            <a href="register.html" class="button">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="main" id="home">
+      <div class="main_container">
+        <div class="main_content">
+          <h1>HALON CODE</h1>
+          <p>Halon Code adalah tempat belajar coding dengan tutorial yang mudah dipahami dan disertai tips seputar programming. Asah kemampuanmu dengan belajar di sini dan mulailah belajar terarah.</p>
+          <button class="main_btn"><a href="#">Start learning now!</a></button>
+        </div>
+        <div class="main_img_container">
+          <img src="image/main_image.svg" alt="main_image" class="main_img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- courses section -->
+    <div class="courses">
+      <div class="courses_continer">
+        <h1>Kursus Kami</h1>
+        <p>Kamu bisa memulai belajar pemrograman kapan saja dan dimana saja. Mulai belajarmu dengan bahasa yang kamu inginkan seperti Python, JavaScript, CSS, Java, Kotlin, C++ dan masih banyak lagi lainnya.</p>
+      </div>
+      <div class="courses_image_container">
+        <img src="image/courses_image.svg" alt="pic" />
+      </div>
+    </div>
+
+    <!-- services section -->
+    <div class="services">
+      <h1>Kenapa Harus Halon Code?</h1>
+      <div class="services_container">
+        <div class="services_card">
+          <img src="image/easy_image.svg" alt="pic" />
+          <h2>Mudah Dipelajari</h2>
+          <p>Kami menyediakan tutorial pemrograman dengan bahasa yang sederhana agar mudah dipahami bagi pemula.</p>
+        </div>
+        <div class="services_card">
+          <img src="image/trusted_image.svg" alt="pic" />
+          <h2>Konten Dapat Dipercaya</h2>
+          <p>Kami mengumpulkan pemikiran para pakar yang bekerja untuk menciptakan pemrograman yang akurat dan mudah dipahami.</p>
+        </div>
+        <div class="services_card">
+          <img src="image/doing_image.svg" alt="pic" />
+          <h2>Belajar Dengan Melakukan</h2>
+          <p>Cara mudah belajar pemrograman adalah dengan menulis kode. Kami menyediakan contoh yang mudah dipahami agar pemula dapat mencoba menulis kodenya sendiri.</p>
+        </div>
+        <div class="services_card">
+          <img src="image/free_image.svg" alt="" />
+          <h2>Pembelajaran Gratis</h2>
+          <p>Pembelajaran melalui platform ini dilakukan secara online dan gratis. Dapat dipelajari oleh semua kalangan.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- blog section -->
+    <div class="blog">
+      <h1>Blog Kami</h1>
+      <p>Baca berbagai blog yang kami sediakan, dengan berbagai konten yang tentunya juga bermanfaat.</p>
+      <div class="blog_container">
+        <a href="#">
+          <div class="blog_card">
+            <img src="image/blog_image.jpg" alt="pic" />
+            <h2>Tips Belajar Python</h2>
+          </div>
+        </a>
+        <a href="#">
+          <div class="blog_card">
+            <img src="image/blog_image.jpg" alt="pic" />
+            <h2>Memasang Extention di VS Code</h2>
+          </div>
+        </a>
+        <a href="#">
+          <div class="blog_card">
+            <img src="image/blog_image.jpg" alt="pic" />
+            <h2>Mitos Programmer</h2>
+          </div>
+        </a>
+        <a href="#">
+          <div class="blog_card">
+            <img src="image/blog_image.jpg" alt="" />
+            <h2>Biografi Programmer Sukses</h2>
+          </div>
+        </a>
+      </div>
+      <div class="blog-btn">
+        <a href="blog.html">Blog Lainnya</a>
+      </div>
+    </div>
+
+    <!-- feedback section -->
+    <div class="feedback">
+      <h1>Kirim Masukan</h1>
+      <p>Kamu dapat menghubungi sosial media kami untuk info lebih lanjut. Don't forget to follow our social media!!</p>
+      <form>
+        <div class="id">
+          <input type="text" placeholder="Full name" />
+        </div>
+        <div class="id">
+          <input type="email" placeholder="Email address" />
+        </div>
+        <textarea cols="30" rows="10" placeholder="Enter your opinions here...."></textarea>
+        <p><button>Kirim</button></p>
+      </form>
+    </div>
+
+    <!-- contact section -->
+    <div class="contact">
+      <div class="contact_container">
+        <h1>Kontak Kami</h1>
+        <p>Kamu dapat menghubungi sosial media kami untuk info lebih lanjut. Don't forget to follow our social media!!</p>
+        <hr />
+        <div class="contact_card">
+          <a class="social-links" href="https://www.linkedin.com/in/farhaz-n-a5b964212/" target="blank">
+            <div class="social-links-icon">
+              <img src="image/linkedin.png" alt="Logo LinkedIn" />
+            </div>
+            <h6 class="social-links-text">Follow us on Linkedin</h6>
+          </a>
+          <a class="social-links" href="https://www.facebook.com/farhaz.nurjananto/" target="blank">
+            <div class="social-links-icon">
+              <img src="image/facebook-logo.png" alt="Logo Facebook" />
+            </div>
+            <h6 class="social-links-text">Check out our Facebook</h6>
+          </a>
+          <a class="social-links" href="https://www.instagram.com/farhaznurjananto/" target="blank">
+            <div class="social-links-icon">
+              <img src="image/instagram-logo.png" alt="Logo Instagram" />
+            </div>
+            <h6 class="social-links-text">Join our Instagram</h6>
+          </a>
+          <a class="social-links" href="https://www.youtube.com/channel/UCOMdKkcb6ysfbX0m6X1ix3Q" target="blank">
+            <div class="social-links-icon">
+              <img src="image/youtube-logo.png" alt="Logo Youtube" />
+            </div>
+            <h6 class="social-links-text">Watch our Youtube</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>&copy; 2021. <b>Halon Code</b> All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
